@@ -7,7 +7,8 @@
 	font-display: block;
 }
 
-.star-rating.icon {
+.star-rating.icon,
+.star-rating.icon.filled {
 	font-family: 'stars';
 	speak: none;
 	font-style: normal;
@@ -20,6 +21,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-.star-rating.icon:before {
+.star-rating.icon:before,
+.star-rating.icon.filled:before {
 	content: "\e900";
 }
