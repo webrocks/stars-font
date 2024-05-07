@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'stars';
+	src: url("stars.woff2") format("woff2"),
+		url("stars.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.star-rating.icon {
+	font-family: 'stars';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.star-rating.icon:before {
+	content: "\e900";
+}
