@@ -7,8 +7,7 @@
 	font-display: block;
 }
 
-.star-rating.icon,
-.star-rating.icon .filled {
+.star-rating.icon {
 	font-family: 'stars';
 	speak: none;
 	font-style: normal;
